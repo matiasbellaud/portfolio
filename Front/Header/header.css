@@ -1,6 +1,4 @@
 body {
-    font-family: monospace;
-    font-size: 15px;
     margin: 0px;
     padding: 0px;
 }
@@ -21,7 +19,17 @@ li {
     margin : 30px 30px;
     color : #b4c0de;
 }
+#headerNavItems {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #0c1c31 ;
+    border : none;
+}
 
-a {
+#headerNavItems:hover {
+    color : #53d3b9;
+}
+#headerNavItems #numberInNav {
     color : #53d3b9;
 }
