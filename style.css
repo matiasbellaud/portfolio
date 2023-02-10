@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #0c1c31;
+}
+
+lu {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin : 0px;
+    padding : 0px 60px;
+}
+
+li {
+    margin : 30px 30px;
+    color : #b4c0de;
+}
+
+a {
+    color : #53d3b9;
+}
