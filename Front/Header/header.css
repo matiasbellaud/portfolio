@@ -3,8 +3,14 @@ body {
     padding: 0px;
 }
 
-header {
+#header {
+    position: fixed;
     background-color: #0c1c31;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: top 0.3s;
+    transition-delay: 0.2s;
 }
 
 lu {
@@ -32,4 +38,8 @@ li {
 }
 #headerNavItems #numberInNav {
     color : #53d3b9;
+}
+
+#header.hidden {
+top: -80px;
 }
