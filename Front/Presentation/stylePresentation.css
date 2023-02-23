@@ -1,0 +1,30 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #0c1c31;
+}
+
+.presentation {
+    margin: 13% 0% 0% 14%;
+}
+
+.hello {
+    margin: 2% auto;
+    color :aqua;
+    font-family: monospace;
+    font-size: 130%;
+}
+
+.name {
+    margin: 2% auto;
+    color : rgb(167, 167, 167);
+    font-family: 'Montserrat', sans-serif;
+    font-size : 400%
+}
+
+.description {
+    color: rgb(110, 115, 131);
+    font-family: 'Montserrat', sans-serif;
+    line-height:150% ;
+}
+

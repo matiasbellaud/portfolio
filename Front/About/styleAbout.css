@@ -1,0 +1,30 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #0c1c31;
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    justify-content: space-around;
+}
+
+.subtitle {
+    display: inline-block;
+    font-size: 200%;
+    color: rgb(167, 167, 167);
+}
+
+
+hr {
+    border: none;
+    border-bottom: 1px solid rgb(110, 115, 131);
+}
+
+.titleNumber {
+    font-family: monospace;
+    color: #53d3b9;
+}
+
+.descriptionText {
+    max-width: 700px;
+    color: rgb(110, 115, 131);
+}

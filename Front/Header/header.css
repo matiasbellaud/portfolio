@@ -1,4 +1,4 @@
-body {
+header {
     margin: 0px;
     padding: 0px;
 }
@@ -8,9 +8,7 @@ body {
     background-color: #0c1c31;
     left: 0;
     right: 0;
-    top: 0;
-    transition: top 0.3s;
-    transition-delay: 0.2s;
+    top: 0px;
 }
 
 lu {
@@ -25,11 +23,13 @@ li {
     margin : 30px 30px;
     color : #b4c0de;
 }
+
 #headerNavItems {
-    text-decoration: none;
     font-family: monospace;
+    text-decoration: none;
     font-size: 15px;
     background-color: #0c1c31 ;
+    color: #b4c0de;
     border : none;
 }
 
@@ -40,6 +40,4 @@ li {
     color : #53d3b9;
 }
 
-#header.hidden {
-top: -80px;
-}
+
