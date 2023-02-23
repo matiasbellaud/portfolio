@@ -9,6 +9,7 @@ header {
     left: 0;
     right: 0;
     top: 0px;
+    transition: top 0.3s;
 }
 
 lu {
