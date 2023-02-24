@@ -29,31 +29,3 @@ body {
     color: #53d3b9;
 }
 
-.about {
-    max-width: 700px;
-    color: rgb(110, 115, 131);
-}
-
-.descriptionText {
-    font-size: 120%;
-}
-
-.languageIntro {
-    color: rgb(167, 167, 167);
-    font-size: 140%;
-}
-
-.languages {
-    font-family: monospace;
-    font-size: 130%;
-    list-style-type: none;
-    display: flex;
-}
-
-#row{
-    margin-right: 10%;
-}
-
-#triangleLanguage {
-    color: #53d3b9;
-}
