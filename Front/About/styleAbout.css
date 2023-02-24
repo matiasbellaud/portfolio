@@ -8,6 +8,7 @@ body {
 }
 
 #allSubtitle {
+    max-width: 70%;
     display: flex;
     font-size: 200%;
 }
@@ -30,11 +31,47 @@ body {
 }
 
 .about {
-    max-width: 700px;
+    padding-left: 13%;
     color: rgb(110, 115, 131);
+    max-width: 80%;
+}
+
+.pictureDecoration {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2%;
+    opacity: 1;
+    z-index: 2;
+}
+
+.decoration {
+    z-index: 1;
+    margin: 20px;
+    border: 2px solid #53d3b9;
+}
+
+img {
+    border-radius: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.profil {
+    display: flex;
 }
 
 .descriptionText {
+    max-width: 50%;
     font-size: 120%;
 }
 
