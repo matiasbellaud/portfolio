@@ -1,0 +1,133 @@
+.works {
+     
+    padding-left: 13%;
+    margin-top: 100px;
+
+    .allWork {
+        display: block;
+        justify-content: center;
+    }
+    
+    .connect4 {
+        width: 900px;
+        display: flex;
+        position:relative;
+        margin-bottom: 50px;
+    }
+    
+    .connect4 .imageConnect4 {
+        background: url("../../assets/img/Connect4.PNG");
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width:570px;
+    }
+    
+    .connect4 .connect4Description {
+        right: 0%;
+        width: 400px;
+        display: inline-block;
+        text-align: right;
+        position:absolute;
+    }
+      
+    .hangmanWeb {
+        width: 900px;
+        display: flex;
+        position:relative;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .hangmanWeb .imageHangmanWeb {
+        background: url("../../assets/img/Connect4.PNG");
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width:570px;
+        position:absolute;
+        right: 0%;
+        z-index: 1;
+    }
+    
+    .hangmanWeb .hangmanWebDescription {
+        width: 400px;
+        display: inline-block;
+        z-index: 2;
+    }
+    
+    .portfolio {
+        width: 900px;
+        display: flex;
+        position:relative;
+        margin-bottom: 50px;
+    }
+    
+    .portfolio .imagePortfolio {
+        background: url("../../assets/img/Connect4.PNG");
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width:570px;
+    }
+    
+    .portfolio .portfolioDescription {
+        right: 0%;
+        width: 400px;
+        display: inline-block;
+        text-align: right;
+        position:absolute;
+    }
+    
+    
+    #effect {
+        height: 350px;
+        width:570px;
+        background-color: rgb(85, 63, 138);
+        opacity: 0.7;
+        border-radius: 5px;
+        transition: opacity 0.3s;
+    }
+    
+    #effect:hover {
+        opacity: 0;
+    }
+    
+    #featuredProject {
+        font-family: monospace;
+        font-size: 150%;
+        color: #53d3b9 ;
+    }
+    
+    #nameOfProject {
+        font-size: 170%;
+        color: rgb(167, 167, 167);
+    }
+    
+    #boxDescription{
+        font-family: monospace;
+        color: rgb(168,178,209) ;
+        line-height: 200%;
+        font-size: 120%;
+        background-color: rgb(17,34,64);
+        padding: 2% 10% 2% 10%;
+        border-radius: 5px;
+    }
+    
+    #tecnoProject {
+        font-family: monospace;
+        color: rgb(168,178,209) ;
+        line-height: 200%;
+        font-size: 120%;
+        margin-bottom: 2px;
+    }
+    
+    #githubLogo {
+        height: 30px;
+        width: 30px;
+    }
+    
+}

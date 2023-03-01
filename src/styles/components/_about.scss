@@ -1,0 +1,77 @@
+.about{
+    
+    .aboutSection {
+        margin-top: 100px;
+        padding-left: 13%;
+        color: rgb(110, 115, 131);
+        max-width: 80%;
+    }
+    
+    .profil {
+        display: flex;
+    }
+    
+    .descriptionText {
+        max-width: 50%;
+        font-size: 120%;
+        line-height: 150%;
+    }
+    
+    .pictureDecoration {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .picture {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 2%;
+        opacity: 1;
+        z-index: 2;
+    }
+    
+    .decoration {
+        z-index: 1;
+        margin: 20px;
+        border: 2px solid #53d3b9;
+        transition: margin 0.3s;
+    }
+    
+    .picture:hover ~ .decoration {
+        margin: 10px;
+    }
+    
+    img {
+        border-radius: 2%;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .languageIntro {
+        color: rgb(167, 167, 167);
+        font-size: 140%;
+    }
+    
+    .languages {
+        font-family: monospace;
+        font-size: 130%;
+        list-style-type: none;
+        display: flex;
+        color: rgb(110, 115, 131);
+    }
+    
+    #row{
+        margin-right: 10%;
+    }
+    
+    #triangleLanguage {
+        color: #53d3b9;
+    }
+
+
+}

@@ -1,0 +1,44 @@
+.header {
+
+    header {
+        z-index: 7;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        background-color: #091524;
+        left: 0;
+        right: 0;
+        top: 0px;
+        transition: top 0.3s;
+    }
+    
+    lu {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+        margin : 0px;
+        padding : 0px 60px;
+    }
+    
+    li {
+        margin : 30px 30px;
+        color : #b4c0de;
+    }
+    
+    #headerNavItems {
+        font-family: monospace;
+        text-decoration: none;
+        font-size: 15px;
+        background-color: #091524 ;
+        color: #b4c0de;
+        border : none;
+    }
+    
+    #headerNavItems:hover {
+        color : #53d3b9;
+    }
+    #headerNavItems #numberInNav {
+        color : #53d3b9;
+    }    
+
+}
