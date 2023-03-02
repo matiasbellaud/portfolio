@@ -1,0 +1,79 @@
+.sideBar {
+    .left {
+        width: 5%;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .right {
+        width: 5%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #verticalLine {
+        margin: 0px 50%;
+        height: 180px;
+        border-left: 2px solid rgb(110, 115, 131);
+    }
+    
+    #githubLogo {
+        fill: rgb(110, 115, 131) !important;
+        margin-left: 24px;
+        margin-top: 20px;
+        transition: all 0.5s;
+    }
+    
+    #githubLogo:hover {
+        fill: #53d3b9 !important;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    #instagramLogo {
+        fill: rgb(110, 115, 131) !important;
+        margin-left: 22px;
+        margin-top: 20px;
+        transition: all 0.5s;
+    }
+    
+    #instagramLogo:hover {
+        fill: #53d3b9 !important;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    #linkedinLogo {
+        fill: rgb(110, 115, 131) !important;
+        margin-left: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    
+    #linkedinLogo:hover {
+        fill: #53d3b9 !important;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    .mailAdressLink{
+        text-decoration: none;  
+    }
+    
+    .mailAdress{
+        color : rgb(110, 115, 131);
+        font-family: monospace;
+        font-size: 120%;
+        padding-bottom: 3px;
+        margin-bottom: 175px;
+        transform: rotate(90deg);
+        transition: margin-bottom 0.5s;
+    }
+    
+    .mailAdress:hover{
+        color: #53d3b9;
+        margin-bottom: 180px;
+    }    
+}
