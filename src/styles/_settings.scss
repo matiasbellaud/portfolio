@@ -28,3 +28,13 @@ body {
     font-family: monospace;
     color: #53d3b9;
 }
+
+@keyframes transitionOpacity {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes transitionleft{
+    0%   {margin-right:70px;opacity:0; }
+    100% {margin-right:0px;opacity:1; }
+}

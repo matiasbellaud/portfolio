@@ -22,28 +22,36 @@ const Header = () => {
             <li>
               <a href="#about">
                 <button id="headerNavItems">
-                  <span id="numberInNav">01.</span> About
+                  <div className="item1">
+                    <span id="numberInNav">01.</span> About
+                  </div>
                 </button>
               </a>
             </li>
             <li>
               <a href="#works">
                 <button id="headerNavItems">
-                  <span id="numberInNav">02.</span> Experience
+                  <div className="item2">
+                    <span id="numberInNav">02.</span> Experience
+                  </div>
                 </button>
               </a>
             </li>
             <li>
               <a href="#works" style={{ marginTop: 40 }}>
                 <button id="headerNavItems">
-                  <span id="numberInNav">03.</span> Work
+                  <div className="item3">
+                    <span id="numberInNav">03.</span> Work
+                  </div>
                 </button>
               </a>
             </li>
             <li>
               <a href="#contact">
                 <button id="headerNavItems">
-                  <span id="numberInNav">04.</span> Contact
+                  <div className="item4">
+                    <span id="numberInNav">04.</span> Contact
+                  </div>
                 </button>
               </a>
             </li>

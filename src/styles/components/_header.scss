@@ -34,11 +34,30 @@
         border : none;
     }
     
+    .item1 {
+        opacity: 0;
+        animation: transitionleft 1s ease-in-out 1.4s forwards;
+    }
+    
+    .item2 {
+        opacity: 0;
+        animation: transitionleft 1s ease-in-out 1.1s forwards;
+    }
+    
+    .item3 {
+        opacity: 0;
+        animation: transitionleft 1s ease-in-out 0.8s forwards;
+    }
+    
+    .item4 {
+        opacity: 0;
+        animation: transitionleft 1s ease-in-out 0.5s forwards;
+    }
+    
     #headerNavItems:hover {
         color : #53d3b9;
     }
     #headerNavItems #numberInNav {
         color : #53d3b9;
-    }    
-
+    }   
 }
