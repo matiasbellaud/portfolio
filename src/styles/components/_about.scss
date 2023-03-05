@@ -5,6 +5,8 @@
         padding-left: 13%;
         color: rgb(110, 115, 131);
         max-width: 80%;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 3s forwards;
     }
     
     .profil {

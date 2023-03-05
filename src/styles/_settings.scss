@@ -38,3 +38,18 @@ body {
     0%   {margin-right:70px;opacity:0; }
     100% {margin-right:0px;opacity:1; }
 }
+
+@keyframes transitionRight{
+    0%   {margin-left:70px;opacity:0; }
+    100% {margin-left:0px;opacity:1; }
+}
+
+@keyframes transitionTop{
+    0%   {margin-bottom:70px;opacity:0; }
+    100% {margin-bottom:0px;opacity:1; }
+}
+
+@keyframes transitionBottom{
+    0%   {margin-top:70px;opacity:0; }
+    100% {margin-top:0px;opacity:1; }
+}

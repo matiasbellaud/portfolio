@@ -1,5 +1,6 @@
 .works {
-     
+    opacity: 0;
+    animation: transitionBottom 1s ease-in-out 4s forwards;
     padding-left: 13%;
     margin-top: 100px;
 
@@ -13,6 +14,8 @@
         display: flex;
         position:relative;
         margin-bottom: 50px;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 5s forwards;
     }
     
     .connect4 .imageConnect4 {
@@ -38,6 +41,8 @@
         position:relative;
         margin-top: 100px;
         margin-bottom: 50px;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 6s forwards;
     }
     
     .hangmanWeb .imageHangmanWeb {
@@ -63,6 +68,8 @@
         display: flex;
         position:relative;
         margin-bottom: 50px;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 7s forwards;
     }
     
     .portfolio .imagePortfolio {
@@ -128,5 +135,11 @@
     #githubLogo {
         height: 30px;
         width: 30px;
+        fill: rgb(167, 167, 167) !important;
+        transition: all 0.5s;
+    }
+    
+    #githubLogo:hover {
+        fill: #53d3b9 !important;
     }
 }

@@ -1,24 +1,34 @@
 .sideBar {
     .left {
-        width: 5%;
         position: fixed;
+        width: 5%;
+        left: 0;
         bottom: 0;
+        z-index: 7;
     }
     
     .right {
-        width: 5%;
         position: fixed;
+        width: 5%;
         bottom: 0;
         right: 0;
+        z-index: 7;
     }
     
     #verticalLine {
-        margin: 0px 50%;
+        margin: 20px 50% 0px 50%;
         height: 180px;
         border-left: 2px solid rgb(110, 115, 131);
         opacity:0;animation: transitionOpacity 1s ease-in-out 2s forwards;
     }
-    
+
+    #verticalLine1 {
+        margin: 0px 50%;
+        height: 20px;
+        border-left: 2px solid rgb(110, 115, 131);
+        opacity:0;animation: transitionOpacity 1s ease-in-out 2s forwards;
+    }
+
     #githubLogo {
         fill: rgb(110, 115, 131) !important;
         margin-left: 24px;
@@ -36,7 +46,7 @@
     
     #instagramLogo {
         fill: rgb(110, 115, 131) !important;
-        margin-left: 22px;
+        margin-left: 24px;
         margin-top: 20px;
         transition: all 0.5s;
         opacity: 0;
@@ -53,7 +63,6 @@
         fill: rgb(110, 115, 131) !important;
         margin-left: 24px;
         margin-top: 20px;
-        margin-bottom: 20px;
         transition: all 0.5s;
         opacity: 0;
         animation: transitionOpacity 1s ease-in-out 2.3s forwards;

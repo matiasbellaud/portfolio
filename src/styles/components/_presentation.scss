@@ -9,19 +9,25 @@
         color :aqua;
         font-family: monospace;
         font-size: 130%;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 1.6s forwards;
     }
     
     .name {
         margin: 2% auto;
         color : rgb(167, 167, 167);
         font-family: 'Montserrat', sans-serif;
-        font-size : 400%
+        font-size : 400%;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 1.8s forwards;
     }
     
     .description {
         color: rgb(110, 115, 131);
         font-family: 'Montserrat', sans-serif;
         line-height:150% ;
+        opacity: 0;
+        animation: transitionBottom 1s ease-in-out 2s forwards;
     }
 
 }
