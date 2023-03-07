@@ -1,0 +1,59 @@
+.contact {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    
+    .allContact {
+        width: 100%;
+    }
+
+    #contactSubtitle {
+        display: flex;
+        font-size: 150%;
+        color: #53d3b9;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contactTitleNumber {
+        padding-top: 5px;
+        color: #53d3b9;
+    }
+
+    .contactText {
+        margin: 3% 25%;
+        max-width: 50%;
+        text-align: center;
+        font-size: 150%;
+        font-weight: medium;
+        color :rgb(167, 167, 167);
+        
+    }
+
+    .allContactMeButton {
+        text-decoration: none;
+    }
+
+    .buttonContactBox {
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactMeButton {       
+        padding: 30px 25px;
+        background-color: #0c1c31;
+        border: #53d3b9 solid 1px;
+        border-radius: 5px;
+        color: #53d3b9 ;  
+        font-family: monospace; 
+        font-size: 120%;
+    }
+
+    .contactMeButton:hover {
+        background-color: #2a574e;
+    }
+}

@@ -1,8 +1,8 @@
 .works {
     opacity: 0;
     animation: transitionBottom 1s ease-in-out 4s forwards;
-    padding-left: 13%;
-    margin-top: 100px;
+    padding-top: 100px;
+    max-width: 900px;
 
     .allWork {
         display: block;

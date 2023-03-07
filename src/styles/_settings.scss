@@ -3,11 +3,13 @@ body {
     margin: 0%;
     background-color: #0c1c31;
     font-family: 'Montserrat', sans-serif;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #allSubtitle {
-    max-width: 70%;
+    max-width: 80%;
     display: flex;
     font-size: 200%;
 }
