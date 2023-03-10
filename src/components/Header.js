@@ -18,7 +18,9 @@ const Header = () => {
     <div className="header">
       <header id="header">
         <nav>
-          <lu>
+          <label for="toggle">☰</label>
+          <input type="checkbox" id="toggle" />
+          <lu class="allHeader">
             <li>
               <a href="#about">
                 <button id="headerNavItems">

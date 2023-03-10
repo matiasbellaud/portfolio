@@ -1,7 +1,7 @@
 .sideBar {
     .left {
         position: fixed;
-        width: 5%;
+        width: 30px;
         left: 0;
         bottom: 0;
         z-index: 7;
@@ -9,22 +9,15 @@
     
     .right {
         position: fixed;
-        width: 5%;
+        width: 70px;
         bottom: 0;
         right: 0;
         z-index: 7;
     }
     
     #verticalLine {
-        margin: 20px 50% 0px 50%;
+        margin: 20px 0px 0px 37px;
         height: 180px;
-        border-left: 2px solid rgb(110, 115, 131);
-        opacity:0;animation: transitionOpacity 1s ease-in-out 2s forwards;
-    }
-
-    #verticalLine1 {
-        margin: 0px 50%;
-        height: 20px;
         border-left: 2px solid rgb(110, 115, 131);
         opacity:0;animation: transitionOpacity 1s ease-in-out 2s forwards;
     }
@@ -95,4 +88,15 @@
         margin-bottom: 180px;
         
     }  
+
+    @media all and (max-width: 1015px)
+    {
+        .left {
+            display: none;
+        }
+        
+        .right {
+            display: none;
+        }
+    }
 }
