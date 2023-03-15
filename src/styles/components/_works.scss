@@ -1,23 +1,28 @@
 .works {
-    opacity: 0;
-    animation: transitionBottom 1s ease-in-out 4s forwards;
-    padding-top: 100px;
-    max-width: 900px;
+    width: 72%;
+    display: block;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 
     .allWork {
+        width: 100%;
         display: block;
-        justify-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
     }
     
     .connect4 {
-        width: 900px;
+        margin: 30px 0 50px 0;
+        padding: 0;
+        width: 90%;
         display: flex;
         position:relative;
-        margin-bottom: 50px;
         opacity: 0;
-        animation: transitionBottom 1s ease-in-out 5s forwards;
+        animation: transitionBottom 1s ease-in-out 5s forwards; 
     }
-    
+ 
     .connect4 .imageConnect4 {
         background: url("../../assets/img/Connect4.PNG");
         border-radius: 5px;
@@ -25,6 +30,7 @@
         background-position: center;
         height: 350px;
         width:570px;
+
     }
     
     .connect4 .connect4Description {
@@ -36,13 +42,13 @@
     }
       
     .hangmanWeb {
-        width: 900px;
+        margin-bottom: 50px;
+        padding: 0;
+        width: 90%;
         display: flex;
         position:relative;
-        margin-top: 100px;
-        margin-bottom: 50px;
         opacity: 0;
-        animation: transitionBottom 1s ease-in-out 6s forwards;
+        animation: transitionBottom 1s ease-in-out 6s forwards; 
     }
     
     .hangmanWeb .imageHangmanWeb {
@@ -64,10 +70,11 @@
     }
     
     .portfolio {
-        width: 900px;
+        margin: 30px 0 50px 0;
+        padding: 0;
+        width: 90%;
         display: flex;
         position:relative;
-        margin-bottom: 50px;
         opacity: 0;
         animation: transitionBottom 1s ease-in-out 7s forwards;
     }
@@ -79,6 +86,7 @@
         background-position: center;
         height: 350px;
         width:570px;
+        
     }
     
     .portfolio .portfolioDescription {
@@ -142,4 +150,131 @@
     #githubLogo:hover {
         fill: #53d3b9 !important;
     }
+
+
+    @media all and (max-width: 920px)
+    {   
+        .allWork {
+            margin: 0 0 350px 0;
+        }
+        
+        .connect4 {
+            width: 100%;
+        }
+     
+        .connect4 .imageConnect4 {
+            height: 350px;
+            width:100%;
+        }
+        
+        .connect4 .connect4Description {
+            left: 10%;
+            width: 80%;
+            text-align: center;
+        }
+
+        .hangmanWeb {
+            width: 100%;
+        }
+        
+        .hangmanWeb .imageHangmanWeb {
+            height: 350px;
+            width:100%;
+        }
+        
+        .hangmanWeb .hangmanWebDescription {
+            left: 10%;
+            width: 80%;
+            text-align: center;
+            position:absolute;
+        }
+        
+        .portfolio {
+            width: 100%;
+            top: 350px;
+        }
+        
+        .portfolio .imagePortfolio {
+            height: 350px;
+            width:100%;
+        }
+        
+        .portfolio .portfolioDescription {
+            left: 10%;
+            width: 80%;
+            text-align: center;
+        }
+        
+
+        #effect {
+            width:100%;
+            background-color: rgb(41, 30, 66);
+            opacity: 0.7;
+        }
+
+        #effect:hover {
+            opacity: 0.7;
+        }
+
+        
+
+        @media all and (max-width: 800px)
+        {
+            .connect4 .imageConnect4 {
+                height: 45vw;
+            }
+
+            .connect4 .connect4Description {
+                left: 10%;
+                width: 80%;
+            }
+
+            .hangmanWeb .imageHangmanWeb {
+                height: 45vw;
+            }
+            
+            .hangmanWeb .hangmanWebDescription {
+                left: 10%;
+                width: 80%;
+            }
+
+            .portfolio {
+                top: 45vw;
+            }
+
+            .portfolio .imagePortfolio {
+                height: 45vw;
+            }
+            
+            .portfolio .portfolioDescription {
+                left: 10%;
+                width: 80%;
+            }
+
+            #featuredProject {
+                font-size: 2.5vw;
+            }
+            
+            #nameOfProject {
+                font-size: 3.5vw;
+            }
+            
+            #boxDescription{
+                font-size: 1.8vw;
+
+            }
+            
+            #tecnoProject {
+                font-size: 2vw;
+            }
+
+            #effect {
+                height: 45vw;
+            }
+        }
+
+    }
 }
+
+
+

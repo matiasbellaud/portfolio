@@ -12,7 +12,9 @@ const Portfolio = () => {
       <SideBar />
       <Header />
       <body>
-        <Presentation />
+        <div>
+          <Presentation />
+        </div>
         <div id="about">
           <br />
         </div>

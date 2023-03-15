@@ -12,6 +12,7 @@ body {
     max-width: 80%;
     display: flex;
     font-size: 200%;
+    margin-bottom: 30px;
 }
 
 #subtitle { 
@@ -19,6 +20,13 @@ body {
 }
 
 #ligne {
+    height: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(110, 115, 131);
+    width: 300px;
+}
+
+#ligneAbout {
     height: 20px;
     margin-left: 20px;
     border-bottom: 1px solid rgb(110, 115, 131);
@@ -55,3 +63,18 @@ body {
     0%   {margin-top:70px;opacity:0; }
     100% {margin-top:0px;opacity:1; }
 }
+
+@media all and (max-width : 1050px){
+    #ligneAbout {
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 920px)
+    {
+        #ligne {
+            display: none;
+        }     
+    }
+

@@ -2,7 +2,6 @@
     max-width: 900px;
     
     .aboutSection {
-        margin-top: 100px;
         color: rgb(110, 115, 131);
         max-width: 80%;
         opacity: 0;
@@ -75,5 +74,21 @@
         color: #53d3b9;
     }
 
+    @media all and (max-width: 1050px)
+    {   
+        margin-left: 50px;
+        .profil {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .descriptionText {
+            max-width: 400px;
+            font-size: 120%;
+            line-height: 150%;
+        }
+
+
+    }
 
 }

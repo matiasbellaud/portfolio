@@ -8,7 +8,7 @@ const About = () => {
         <div id="allSubtitle">
           <span id="titleNumber">01.</span>
           <div id="subtitle">&nbsp;About me</div>
-          <div id="ligne"></div>
+          <div id="ligneAbout"></div>
         </div>
 
         <div className="profil">
