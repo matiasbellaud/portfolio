@@ -1,15 +1,19 @@
 .about{
     max-width: 900px;
+    color: rgb(110, 115, 131);
+    max-width: 80%;
     
-    .aboutSection {
-        color: rgb(110, 115, 131);
-        max-width: 80%;
+
+    #allSubtitle {
         opacity: 0;
-        animation: transitionBottom 1s ease-in-out 3s forwards;
+        animation: transitionBottom 0.8s ease-in-out 2.5s forwards; 
     }
     
     .profil {
         display: flex;
+        opacity: 0;
+        animation: transitionBottom 0.8s ease-in-out 3.0s forwards; 
+        
     }
     
     .descriptionText {
@@ -17,14 +21,7 @@
         font-size: 120%;
         line-height: 150%;
     }
-    
-    .pictureDecoration {
-        position: relative;
-        width: 250px;
-        height: 250px;
-        margin: 20px;
-    }
-    
+
     .picture {
         position: absolute;
         width: 250px;
@@ -34,6 +31,13 @@
         border-radius: 2%;
         opacity: 1;
         z-index: 2;
+    }
+    
+    .pictureDecoration {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 20px;
     }
     
     .decoration {
@@ -52,10 +56,19 @@
         height: 100%;
         width: 100%;
     }
+
+    .languageSection{
+        opacity: 0;
+        animation: transitionBottom 0.8s ease-in-out 3.5s forwards; 
+    }
     
     .languageIntro {
         color: rgb(167, 167, 167);
         font-size: 140%;
+    }
+
+    #languageList {
+        list-style: none;
     }
     
     .languages {

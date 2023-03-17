@@ -4,6 +4,8 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    opacity: 0;
+    animation: transitionBottom 1s ease-in-out 4.5s forwards; 
 
     .allWork {
         width: 100%;
@@ -15,10 +17,12 @@
     
     .connect4 {
         margin: 30px 0 50px 0;
-        padding: 0;
+        padding: 10px;
         width: 90%;
         display: flex;
         position:relative;
+        border: 2px solid #53d3b9 ;
+        border-radius: 10px;
         opacity: 0;
         animation: transitionBottom 1s ease-in-out 5s forwards; 
     }
@@ -36,6 +40,7 @@
     .connect4 .connect4Description {
         right: 0%;
         width: 400px;
+        margin-right: 10px;
         display: inline-block;
         text-align: right;
         position:absolute;
@@ -43,15 +48,18 @@
       
     .hangmanWeb {
         margin-bottom: 50px;
-        padding: 0;
+        padding: 10px;
         width: 90%;
         display: flex;
         position:relative;
+        border: 2px solid #53d3b9 ;
+        border-radius: 10px;
         opacity: 0;
         animation: transitionBottom 1s ease-in-out 6s forwards; 
     }
     
     .hangmanWeb .imageHangmanWeb {
+        margin-right: 10px;
         background: url("../../assets/img/HangmanWeb.PNG");
         border-radius: 5px;
         background-size: cover;
@@ -71,10 +79,12 @@
     
     .portfolio {
         margin: 30px 0 50px 0;
-        padding: 0;
+        padding: 10px;
         width: 90%;
         display: flex;
         position:relative;
+        border: 2px solid #53d3b9 ;
+        border-radius: 10px;
         opacity: 0;
         animation: transitionBottom 1s ease-in-out 7s forwards;
     }
@@ -90,6 +100,7 @@
     }
     
     .portfolio .portfolioDescription {
+        margin-right: 10px;
         right: 0%;
         width: 400px;
         display: inline-block;
@@ -107,7 +118,15 @@
         transition: opacity 0.3s;
     }
     
-    #effect:hover {
+    .connect4:hover #effect{
+        opacity: 0;
+    }
+
+    .hangmanWeb:hover #effect{
+        opacity: 0;
+    }
+
+    .portfolio:hover #effect{
         opacity: 0;
     }
     
@@ -212,7 +231,15 @@
             opacity: 0.7;
         }
 
-        #effect:hover {
+        .connect4:hover #effect{
+            opacity: 0.7;
+        }
+    
+        .hangmanWeb:hover #effect{
+            opacity: 0.7;
+        }
+    
+        .portfolio:hover #effect{
             opacity: 0.7;
         }
 

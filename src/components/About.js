@@ -28,39 +28,45 @@ const About = () => {
           </div>
         </div>
 
-        <p className="languageIntro">
-          Language I have been working with recently :
-        </p>
-        <lu className="languages">
-          <div id="row">
-            <li id="language">
-              <p>
-                {" "}
-                <span id="triangleLanguage"> ▸ </span> html5{" "}
-              </p>
-            </li>
-            <li id="language">
-              <p>
-                {" "}
-                <span id="triangleLanguage"> ▸ </span> css3{" "}
-              </p>
-            </li>
-          </div>
-          <div id="row">
-            <li id="language">
-              <p>
-                {" "}
-                <span id="triangleLanguage"> ▸ </span> golang{" "}
-              </p>
-            </li>
-            <li id="language">
-              <p>
-                {" "}
-                <span id="triangleLanguage"> ▸ </span> javascript{" "}
-              </p>
-            </li>
-          </div>
-        </lu>
+        <section className="languageSection">
+          <p className="languageIntro">
+            Language I have been working with recently :
+          </p>
+          <lu className="languages">
+            <div id="row">
+              <ul id="languageList">
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> html5{" "}
+                  </p>
+                </li>
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> css3{" "}
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div id="row">
+              <ul id="languageList">
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> golang{" "}
+                  </p>
+                </li>
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> javascript{" "}
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </lu>
+        </section>
       </section>
     </div>
   );
