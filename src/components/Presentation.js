@@ -2,7 +2,7 @@ import React from "react";
 
 const Presentation = () => {
   return (
-    <div className="presentation">
+    <section className="presentation">
       <div className="presentationSection">
         <p className="hello">Hello everyone, my name is</p>
         <p className="name">Matias Bellaud</p>
@@ -11,7 +11,7 @@ const Presentation = () => {
           and I'm passionate about it.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

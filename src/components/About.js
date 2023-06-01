@@ -32,7 +32,7 @@ const About = () => {
           <p className="languageIntro">
             Language I have been working with recently :
           </p>
-          <lu className="languages">
+          <div className="languages">
             <div id="row">
               <ul id="languageList">
                 <li id="language">
@@ -65,7 +65,23 @@ const About = () => {
                 </li>
               </ul>
             </div>
-          </lu>
+            <div id="row">
+              <ul id="languageList">
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> java{" "}
+                  </p>
+                </li>
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> SQL{" "}
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
       </section>
     </div>

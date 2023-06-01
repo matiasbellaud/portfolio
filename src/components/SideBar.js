@@ -3,7 +3,7 @@ import React from "react";
 const SideBar = () => {
   return (
     <div className="sideBar">
-      <div class="left">
+      <section class="left">
         <div>
           <a href="https://github.com/matiasbellaud">
             <svg
@@ -40,13 +40,13 @@ const SideBar = () => {
           </a>
           <div id="verticalLine"></div>
         </div>
-      </div>
-      <div class="right">
+      </section>
+      <section class="right">
         <a href="mailto:bellaud.matias@gmail.com" class="mailAdressLink">
           <p class="mailAdress"> bellaud.matias@gmail.com</p>
         </a>
         <div id="verticalLine"></div>
-      </div>
+      </section>
     </div>
   );
 };
