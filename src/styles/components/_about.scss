@@ -1,21 +1,21 @@
-.about{
+.about {
     max-width: 900px;
     color: rgb(110, 115, 131);
     max-width: 80%;
-    
+
 
     #allSubtitle {
         opacity: 0;
-        animation: transitionBottom 0.8s ease-in-out 2.5s forwards; 
+        animation: transitionBottom 0.8s ease-in-out 2.5s forwards;
     }
-    
+
     .profil {
         display: flex;
         opacity: 0;
-        animation: transitionBottom 0.8s ease-in-out 3.0s forwards; 
-        
+        animation: transitionBottom 0.8s ease-in-out 3.0s forwards;
+
     }
-    
+
     .descriptionText {
         max-width: 650px;
         font-size: 120%;
@@ -32,36 +32,36 @@
         opacity: 1;
         z-index: 2;
     }
-    
+
     .pictureDecoration {
         position: relative;
         width: 250px;
         height: 250px;
         margin: 20px;
     }
-    
+
     .decoration {
         z-index: 1;
         margin: 20px;
         border: 2px solid #53d3b9;
         transition: margin 0.3s;
     }
-    
-    .picture:hover ~ .decoration {
+
+    .picture:hover~.decoration {
         margin: 10px;
     }
-    
+
     img {
         border-radius: 2%;
         height: 100%;
         width: 100%;
     }
 
-    .languageSection{
+    .languageSection {
         opacity: 0;
-        animation: transitionBottom 0.8s ease-in-out 3.5s forwards; 
+        animation: transitionBottom 0.8s ease-in-out 3.5s forwards;
     }
-    
+
     .languageIntro {
         color: rgb(167, 167, 167);
         font-size: 140%;
@@ -70,7 +70,7 @@
     #languageList {
         list-style: none;
     }
-    
+
     .languages {
         font-family: monospace;
         font-size: 130%;
@@ -78,18 +78,37 @@
         display: flex;
         color: rgb(110, 115, 131);
     }
-    
-    #row{
+
+    #row {
         margin-right: 10%;
     }
-    
+
     #triangleLanguage {
         color: #53d3b9;
     }
 
-    @media all and (max-width: 1050px)
-    {   
-        margin-left: 50px;
+    @media all and (max-width: 1100px) {
+
+        .picture {
+            width: 60vw;
+            height: 60vw;
+            max-width: 250px;
+            max-height: 250px;
+            z-index: 2;
+        }
+
+        .pictureDecoration {
+            width: 60vw;
+            height: 60vw;
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        .decoration {
+            z-index: 1;
+        }
+
+
         .profil {
             display: flex;
             flex-direction: column-reverse;
@@ -100,8 +119,13 @@
             font-size: 120%;
             line-height: 150%;
         }
-
-
     }
 
+    @media all and (max-width: 950px) {
+        margin-left: 2vw;
+
+        .languages {
+            display: block;
+        }
+    }
 }
