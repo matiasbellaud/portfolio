@@ -24,7 +24,7 @@ const Works = () => {
                 Little One is a Rogue like game in javascript in a web page.
               </p>
             </div>
-            <p id="tecnoProject">javascrript  &nbsp; html &nbsp; github &nbsp; VS Code</p>
+            <p id="tecnoProject">javascript  &nbsp; html &nbsp; github &nbsp; VS Code</p>
             <div>
               <a href="https://github.com/matiasbellaud/RPG_typescript">
                 <svg

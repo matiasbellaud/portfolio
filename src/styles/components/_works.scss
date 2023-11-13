@@ -88,11 +88,11 @@
         border: 2px solid #53d3b9;
         border-radius: 10px;
         opacity: 0;
-        animation: transitionBottom 1s ease-in-out 7s forwards;
+        animation: transitionBottom 1s ease-in-out 5s forwards;
     }
 
     .portfolio .imagePortfolio {
-        background: url("../../assets/img/rogueLike.PNG");
+        background: url("../../assets/img/portfolio.png");
         border-radius: 5px;
         background-size: cover;
         background-position: center;
@@ -100,7 +100,6 @@
         width: 570px;
 
     }
-
     .portfolio .portfolioDescription {
         margin-right: 10px;
         right: 0%;

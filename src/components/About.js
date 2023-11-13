@@ -38,29 +38,13 @@ const About = () => {
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> html5{" "}
+                    <span id="triangleLanguage"> ▸ </span> HTML5{" "}
                   </p>
                 </li>
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> css3{" "}
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div id="row">
-              <ul id="languageList">
-                <li id="language">
-                  <p>
-                    {" "}
-                    <span id="triangleLanguage"> ▸ </span> golang{" "}
-                  </p>
-                </li>
-                <li id="language">
-                  <p>
-                    {" "}
-                    <span id="triangleLanguage"> ▸ </span> javascript{" "}
+                    <span id="triangleLanguage"> ▸ </span> CSS3{" "}
                   </p>
                 </li>
               </ul>
@@ -70,13 +54,45 @@ const About = () => {
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> java{" "}
+                    <span id="triangleLanguage"> ▸ </span> Golang{" "}
+                  </p>
+                </li>
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> Javascript{" "}
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div id="row">
+              <ul id="languageList">
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> Java{" "}
                   </p>
                 </li>
                 <li id="language">
                   <p>
                     {" "}
                     <span id="triangleLanguage"> ▸ </span> SQL{" "}
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div id="row">
+              <ul id="languageList">
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> Python{" "}
+                  </p>
+                </li>
+                <li id="language">
+                  <p>
+                    {" "}
+                    <span id="triangleLanguage"> ▸ </span> C#{" "}
                   </p>
                 </li>
               </ul>
