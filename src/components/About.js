@@ -54,7 +54,7 @@ const About = () => {
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> Golang{" "}
+                    <span id="triangleLanguage"> ▸ </span> PowerPlatform{" "}
                   </p>
                 </li>
                 <li id="language">

@@ -24,7 +24,7 @@ const Works = () => {
                 Little One is a Rogue like game in javascript in a web page.
               </p>
             </div>
-            <p id="tecnoProject">javascript  &nbsp; html &nbsp; github &nbsp; VS Code</p>
+            <p id="tecnoProject">javascript  &nbsp; html5 &nbsp; github &nbsp; VS Code</p>
             <div>
               <a href="https://github.com/matiasbellaud/RPG_typescript">
                 <svg
@@ -41,24 +41,24 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="hangmanWeb">
-          <div className="imageHangmanWeb">
+        <div className="work2">
+          <div className="imageWork2">
             <div id="effect"></div>
           </div>
-          <div className="hangmanWebDescription">
+          <div className="work2Description">
             <p id="featuredProject">Featured project</p>
-            <p id="nameOfProject">Hangman Web</p>
+            <p id="nameOfProject">Wineward</p>
             <div id="boxDescription">
               <p>
-                Project of a Hangman Web in Golang, html and css, the goal was
-                to learn how to create a web page.
+                Wineward, an application for discovering French wines. <br/>
+                (not available now)  
               </p>
             </div>
             <p id="tecnoProject">
-              golang &nbsp; html5 &nbsp; css3 &nbsp; github &nbsp; VS Code
+              react native &nbsp; nodeJs &nbsp; postgreSQL &nbsp; github 
             </p>
             <div>
-              <a href="https://github.com/matiasbellaud/hangman_web">
+              <a href="https://github.com/matiasbellaud/Wineward">
                 <svg
                   id="githubLogo"
                   xmlns="http://www.w3.org/2000/svg"

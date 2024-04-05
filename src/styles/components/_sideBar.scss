@@ -18,12 +18,12 @@
     #verticalLine {
         margin: 20px 0px 0px 37px;
         height: 180px;
-        border-left: 2px solid rgb(110, 115, 131);
+        border-left: 2px solid rgb(136, 140, 153);
         opacity:0;animation: transitionOpacity 1s ease-in-out 2s forwards;
     }
 
     #githubLogo {
-        fill: rgb(110, 115, 131) !important;
+        fill: rgb(136, 140, 153) !important;
         margin-left: 24px;
         margin-top: 20px;
         transition: all 0.5s;
@@ -38,7 +38,7 @@
     }
     
     #instagramLogo {
-        fill: rgb(110, 115, 131) !important;
+        fill: rgb(136, 140, 153) !important;
         margin-left: 24px;
         margin-top: 20px;
         transition: all 0.5s;
@@ -53,7 +53,7 @@
     }
     
     #linkedinLogo {
-        fill: rgb(110, 115, 131) !important;
+        fill: rgb(136, 140, 153) !important;
         margin-left: 24px;
         margin-top: 20px;
         transition: all 0.5s;
@@ -72,7 +72,7 @@
     }
     
     .mailAdress{
-        color : rgb(110, 115, 131);
+        color : rgb(136, 140, 153);
         font-family: monospace;
         font-size: 120%;
         padding-bottom: 3px;

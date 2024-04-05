@@ -1,21 +1,21 @@
 import React from "react";
 
 const Header = () => {
-  let scrollBefore = 0;
+  // let scrollBefore = 0;
 
-  window.addEventListener("scroll", function () {
-    const scrolled = window.pageYOffset;
-    if (document.getElementById("toggle").checked) {
-    } else {
-      if (scrollBefore > scrolled) {
-        scrollBefore = scrolled;
-        document.getElementById("header").style.top = "0px";
-      } else {
-        scrollBefore = scrolled;
-        document.getElementById("header").style.top = "-80px";
-      }
-    }
-  });
+  // window.addEventListener("scroll", function () {
+  //   const scrolled = window.pageYOffset;
+  //   if (document.getElementById("toggle").checked) {
+  //   } else {
+  //     if (scrollBefore > scrolled) {
+  //       scrollBefore = scrolled;
+  //       document.getElementById("header").style.top = "0px";
+  //     } else {
+  //       scrollBefore = scrolled;
+  //       document.getElementById("header").style.top = "-80px";
+  //     }
+  //   }
+  // });
 
   return (
     <div className="header">
