@@ -54,7 +54,7 @@ const About = () => {
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> PowerPlatform{" "}
+                    <span id="triangleLanguage"> ▸ </span> C#{" "}
                   </p>
                 </li>
                 <li id="language">
@@ -92,7 +92,7 @@ const About = () => {
                 <li id="language">
                   <p>
                     {" "}
-                    <span id="triangleLanguage"> ▸ </span> C#{" "}
+                    <span id="triangleLanguage"> ▸ </span> PowerPlatform{" "}
                   </p>
                 </li>
               </ul>
